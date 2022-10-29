@@ -222,7 +222,7 @@ def contact(gf: ti.template()):
 init()
 gui = ti.GUI('Taichi DEM', (window_size, window_size))
 step = 0
-tol=1e-1
+tol=1e-9
 
 if SAVE_FRAMES:
     os.makedirs('output', exist_ok=True)
